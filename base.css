@@ -1,0 +1,73 @@
+.container{
+    max-width: 1050px;
+    min-width: 450px;
+    margin: auto;
+}
+.footer-menu-btn,
+.register-content-btn,
+.wrapper-content-btn,
+.wrapper-content-btn-2,
+.product-header-btn,
+.product-header-btn-2,
+.banner-info-btn,
+.creator-header-btn-2,
+.creator-header-btn{
+    height: max-content;
+    padding: 19px 50px;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 22.4px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.wrapper-content-btn:hover,
+.wrapper-content-btn-2:hover,
+.product-header-btn:hover,
+.product-header-btn-2:hover,
+.banner-info-btn:hover,
+.creator-header-btn-2:hover,
+.creator-header-btn:hover{
+    transform: scale(.95);
+    transition: .5s;
+}
+.banner-info-btn{
+    background: #A259FF;
+    margin-bottom: 30px;
+}
+/* title */
+.register-content-title,
+.work-header-title,
+.product-header-title > h2,
+.category-header-title,
+.trending-header-title,
+.creator-header-title > h2 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 45.6px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+/* description */
+.register-content-description,
+.work-header-description,
+.product-header-title > p,
+.trending-header-description,
+.creator-header-title > p {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 35.2px;
+    color: #fff;
+}
+
+.icon-btn{
+    object-fit: cover;
+    min-width: 20px;
+    min-height: 20px;
+}

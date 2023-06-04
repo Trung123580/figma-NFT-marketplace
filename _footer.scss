@@ -1,0 +1,96 @@
+.footer{
+    padding: 40px 0;
+    &-main{
+        display: flex;
+        width: 100%;
+        // justify-content: space-between;
+    }
+    &-list{
+        &:first-child{
+            margin-right: 115px;
+        }
+        &:last-child{
+            flex-grow: 1;
+            margin-left: 138px;
+        }
+        & > h1 > a > img {
+            min-width: 243.41px;
+            min-height: 32px;
+            object-fit: cover;
+        }
+        & > h3 {
+            font-weight: 700;
+            font-size: 2.2rem;
+            line-height: 35.2px;
+            font-family: Spacemono;
+            color: $color-white;
+        }
+    }
+    &-menu{
+        list-style: none;
+        margin-top: 25px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        &-item{
+            & > ul {
+                list-style: none;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+            & > a {
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 22.4px;
+            text-decoration: none;
+            color: #ccc;
+           }
+        }
+        &-text{
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 22.4px;
+            color: #ccc;
+        }
+        &-form{
+            display: flex;
+            background: #fff;
+            border-radius: 20px;
+        }
+        &-input{
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            padding: 19px 12px 19px 20px;
+            flex-grow: 1;
+            &::placeholder{
+                font-weight: 400;
+                font-size: 1.6rem;
+                font-family: Work;
+                color: #2B2B2B;
+                line-height: 22.4px;
+            }
+        }
+        &-btn{
+            background: #A259FF;
+            &:hover{
+                transform: scale(.95);
+                transform-origin: center;
+                transition: .3s;
+            }
+        }
+    }
+    &-about{
+        border-top: 1px solid #858584;
+        margin-top: 30px;
+        & > span {
+            margin-top: 20px;
+            display: inline-block;
+            font-weight: 400;
+            font-size: 1.2rem;
+            line-height: 13.2px;
+            color: #ccc;
+        }
+    }
+}

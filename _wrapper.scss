@@ -1,0 +1,96 @@
+.wrapper{
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0)0%, #A259FF),url('./img/wrapper-bg.png') no-repeat center / cover;
+    width: 100%;
+    // height: 566px;
+    padding: 360px 0 60px;
+    object-fit: cover;
+    &-content{
+        display: flex;
+        height: 100%;
+        &-info{
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        &-title{
+            color: $color-white;
+            font-weight: 600;
+            font-size: 5.1rem;
+            line-height: 56.1px;
+            margin-bottom: 30px;
+        }
+       
+        &-btn-2,
+        &-btn{
+            width: max-content;
+            background: #fff;
+            border: 2px solid #fff;
+            color: #2B2B2B;
+        }
+
+        &-date{
+            padding: 30px;
+            background: rgba(59, 59, 59, .5);
+            border-radius: 20px;
+            color: #fff;
+            height: auto;
+            backdrop-filter:blur(5px);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            & > span {
+                font-weight: 400;
+                font-size: 1.2rem;
+                font-family: Spacemono;
+            }
+        }
+        &-menu{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            // justify-content: space-between;
+        }
+        &-item{
+            display: flex;
+            flex-direction: column;
+            // position: relative;
+            font-weight: 700;
+            justify-content: flex-start;
+            line-height: 39.2px;
+            // height: 100%;
+            font-size: 2.8rem;
+            color: $color-white;
+            &:nth-child(even){
+                position: relative;
+                top: -13px;
+            }
+        }
+        // &-item::after{
+        //     position: absolute;
+        //     content: ':';
+        //     right: -25px;
+        //     top: 0;
+        //     font-weight: 700;
+        //     line-height: 39.2px;
+        //     font-size: 2.8rem;
+        //     color: $color-white;
+        // }
+        // &-item:last-child:after{
+        //     display: none;
+        // }
+        &-time{
+            font-family: Spacemono;
+            font-weight: 700;
+            font-size: 3.8rem;
+            line-height: 45.6px;
+            margin-bottom: 10px;
+        }
+        &-text{
+            font-family: Spacemono;
+            font-weight: 400;
+            font-size: 1.2rem;
+            line-height: 13.2px;
+        }
+    }
+
+}

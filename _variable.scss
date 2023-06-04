@@ -1,0 +1,7 @@
+$color-white: #fff;
+$color:#858584;
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

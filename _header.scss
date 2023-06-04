@@ -1,0 +1,51 @@
+.header{
+    padding: 20px 50px;
+    @include flex-center ;
+    &-title > a > img {
+        min-width: 243.41px;
+        min-height: 32px;
+        object-fit: cover;
+    }
+    &-icon-bar{
+        min-width: 24px;
+        min-height: 24px;
+        object-fit: cover
+    }
+    &-menu{
+        @include flex-center;
+        list-style: none;
+        gap: 10px;
+        &-item > a{
+            @include flex-center;
+            font-family: Work;
+            font-weight: 600;
+            font-size: 1.6rem;
+            line-height: 22.4px;
+            color: $color-white;
+            text-decoration: none;
+            padding: 19px 30px;
+            gap: 12px;
+            & > img {
+                object-fit: cover;
+                min-height: 20px;
+                min-width: 20px;
+            }
+        }
+        &-item:last-child{
+            background: #a259ff;
+            border-radius: 20px;
+            border: 1px solid transparent;
+            &:hover{
+                background: transparent;
+                border: 1px solid #a259ff;
+                transition: .3s;
+                opacity: .8;
+            }
+        }
+    }
+}
+nav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
