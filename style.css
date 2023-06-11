@@ -416,6 +416,7 @@ nav {
   max-height: 24px;
   -o-object-fit: cover;
      object-fit: cover;
+     border-radius: 50%;
 }
 .product-menu-user > span {
   font-family: Spacemono;
