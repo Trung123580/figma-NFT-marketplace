@@ -617,6 +617,7 @@ nav {
 
 .footer {
   padding: 40px 0;
+  background: #3B3B3B;
 }
 .footer-main {
   display: flex;
@@ -707,7 +708,7 @@ nav {
   color: #ccc;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container {
     max-width: 100%;
     min-width: 100%;
@@ -1211,6 +1212,6 @@ nav {
   .register-bg > img:last-child {
     display: none;
   }
-}
+} */
 
 /*# sourceMappingURL=style.css.map */

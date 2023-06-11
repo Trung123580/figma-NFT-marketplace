@@ -3,6 +3,7 @@
     min-width: 450px;
     margin: auto;
 }
+.create-content__btn,
 .footer-menu-btn,
 .register-content-btn,
 .wrapper-content-btn,
@@ -27,6 +28,8 @@
     justify-content: center;
     cursor: pointer;
 }
+.create-content__item:hover,
+.create-content__btn:hover,
 .wrapper-content-btn:hover,
 .wrapper-content-btn-2:hover,
 .product-header-btn:hover,
