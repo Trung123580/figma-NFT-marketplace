@@ -7,12 +7,14 @@
 .header-title > a > img {
   min-width: 243.41px;
   min-height: 32px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .header-icon-bar {
   min-width: 24px;
   min-height: 24px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .header-menu {
   display: flex;
@@ -35,7 +37,8 @@
   gap: 12px;
 }
 .header-menu-item > a > img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   min-height: 20px;
   min-width: 20px;
 }
@@ -108,7 +111,8 @@ nav {
   flex-direction: column;
 }
 .banner-bg-img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 20px 20px 0px 0px;
@@ -141,7 +145,8 @@ nav {
 .banner-bg-user > img {
   max-width: 24px;
   max-height: 24px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .banner-bg-user > span {
   font-weight: 400;
@@ -163,7 +168,8 @@ nav {
   width: 100%;
   border-radius: 20px;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin: 60px 0 15px;
 }
 .trending-content-item > a > img:hover {
@@ -177,7 +183,8 @@ nav {
 .trending-content-list > a > img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
 }
 .trending-content-list > a > img:hover {
@@ -213,7 +220,8 @@ nav {
 .trending-content-user > img {
   max-width: 24px;
   max-height: 24px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .trending-content-name {
   color: #fff;
@@ -278,7 +286,8 @@ nav {
 .creator-menu-img {
   width: 120px;
   height: 120px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .creator-menu-info > p {
   color: #858584;
@@ -331,7 +340,8 @@ nav {
   filter: blur(7.5px);
   width: 100%;
   height: 240px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
 }
 .category-menu-ab {
@@ -339,7 +349,8 @@ nav {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100px;
   height: 100px;
 }
@@ -379,7 +390,8 @@ nav {
 }
 .product-menu-item > img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
 .product-menu-info {
@@ -402,7 +414,8 @@ nav {
 .product-menu-user > img {
   max-width: 24px;
   max-height: 24px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .product-menu-user > span {
   font-family: Spacemono;
@@ -442,7 +455,8 @@ nav {
   background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF), url("./img/wrapper-bg.png") no-repeat center/cover;
   width: 100%;
   padding: 360px 0 60px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .wrapper-content {
   display: flex;
@@ -461,6 +475,7 @@ nav {
   margin-bottom: 30px;
 }
 .wrapper-content-btn-2, .wrapper-content-btn {
+  width: -moz-max-content;
   width: max-content;
   background: #fff;
   border: 2px solid #fff;
@@ -472,7 +487,8 @@ nav {
   border-radius: 20px;
   color: #fff;
   height: auto;
-  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -542,7 +558,8 @@ nav {
 .work-content-item > img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .work-content-name {
   font-weight: 600;
@@ -576,7 +593,8 @@ nav {
 .register-bg > img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .register-content {
   width: 50%;
@@ -607,6 +625,13 @@ nav {
   line-height: 22.4px;
   color: #2B2B2B;
 }
+.register-content-input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 22.4px;
+  color: #2B2B2B;
+  font-family: Work;
+}
 .register-content-input::placeholder {
   font-weight: 400;
   font-size: 1.6rem;
@@ -617,7 +642,6 @@ nav {
 
 .footer {
   padding: 40px 0;
-  background: #3B3B3B;
 }
 .footer-main {
   display: flex;
@@ -633,7 +657,8 @@ nav {
 .footer-list > h1 > a > img {
   min-width: 243.41px;
   min-height: 32px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .footer-list > h3 {
   font-weight: 700;
@@ -680,6 +705,13 @@ nav {
   padding: 19px 12px 19px 20px;
   flex-grow: 1;
 }
+.footer-menu-input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: Work;
+  color: #2B2B2B;
+  line-height: 22.4px;
+}
 .footer-menu-input::placeholder {
   font-weight: 400;
   font-size: 1.6rem;
@@ -708,7 +740,7 @@ nav {
   color: #ccc;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     max-width: 100%;
     min-width: 100%;
@@ -1212,6 +1244,4 @@ nav {
   .register-bg > img:last-child {
     display: none;
   }
-} */
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

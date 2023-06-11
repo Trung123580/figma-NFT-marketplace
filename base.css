@@ -3,6 +3,7 @@
     min-width: 450px;
     margin: auto;
 }
+.info-content_btn,
 .create-content__btn,
 .footer-menu-btn,
 .register-content-btn,
@@ -28,6 +29,8 @@
     justify-content: center;
     cursor: pointer;
 }
+.header-menu-item:last-child:hover,
+.info-content_btn:hover,
 .create-content__item:hover,
 .create-content__btn:hover,
 .wrapper-content-btn:hover,
