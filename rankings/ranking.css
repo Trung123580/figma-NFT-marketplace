@@ -136,6 +136,11 @@ nav {
     flex-shrink: 1;
     flex-basis: 290px;
 }
+.rank-user:hover{
+  transition: .3s;
+  scale: .95;
+  transform-origin: center;
+}
 .rank-item > .rank-change{
     color: #00AC4F;
 }
