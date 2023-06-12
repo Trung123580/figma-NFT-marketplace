@@ -686,6 +686,8 @@ nav {
   font-size: 1.6rem;
   line-height: 22.4px;
   text-decoration: none;
+  display: inline-block;
+  width: max-content;
   color: #ccc;
 }
 .footer-menu-text {

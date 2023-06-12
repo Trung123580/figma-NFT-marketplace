@@ -194,7 +194,7 @@
     line-height: 13.2px;
   }
   .wrapper {
-    background: url("./img/wrapper-bg-3.png") no-repeat center/cover;
+    background: url("../img/wrapper-bg-3.png") no-repeat center/cover;
     padding: 120px 0 40px;
     height: auto;
   }
@@ -453,7 +453,7 @@
     display: none;
   }
   .wrapper {
-    background: url("./img/wrapper-bg-2.png") no-repeat center/cover;
+    background: url("../img/wrapper-bg-2.png") no-repeat center/cover;
     height: auto;
   }
   .wrapper-content-title {
